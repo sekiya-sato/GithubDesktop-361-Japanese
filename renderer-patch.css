@@ -1,0 +1,303 @@
+/* #region 日本語化 */
+/* ファイルメニュー項目 */
+#app-menu-bar>div:nth-child(1)>div>button { font-size: 0; }
+#app-menu-bar>div:nth-child(1)>div>button:last-child:after { font-size: 12px; content: "ファイル"; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span:after { font-size: 12px; content: "新しいリポジトリ"; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span:after { font-size: 12px; content: "リポジトリを開く"; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span:after { font-size: 12px; content: "リポジトリを閉じる"; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span:after { font-size: 12px; content: "設定"; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(8)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(1)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(8)>div.label>span:after { font-size: 12px; content: "終了"; }
+/* 編集項目 */
+#app-menu-bar>div:nth-child(2)>div>button { font-size: 0; }
+#app-menu-bar>div:nth-child(2)>div>button:last-child:after { font-size: 12px; content: "編集"; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span:after { font-size: 12px; content: "元に戻す"; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span:after { font-size: 12px; content: "やり直し"; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span:after { font-size: 12px; content: "切り取り"; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(5)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(5)>div.label>span:after { font-size: 12px; content: "コピー"; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span:after { font-size: 12px; content: "貼り付け"; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(7)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(7)>div.label>span:after { font-size: 12px; content: "全て選択"; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(9)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(2)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(9)>div.label>span:after { font-size: 12px; content: "検索"; }
+/* 表示項目 */
+#app-menu-bar>div:nth-child(3)>div>button { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>div>button:last-child:after { font-size: 12px; content: "表示"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span:after { font-size: 12px; content: "変更"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span:after { font-size: 12px; content: "履歴"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span:after { font-size: 12px; content: "リポジトリ一覧"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span:after { font-size: 12px; content: "ブランチ一覧"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span:after { font-size: 12px; content: "概要に移動"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(7)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(7)>div.label>span:after { font-size: 12px; content: "変更を表示"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(8)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(8)>div.label>span:after { font-size: 12px; content: "全画面表示切替"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(10)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(10)>div.label>span:after { font-size: 12px; content: "ズームリセット"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(11)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(11)>div.label>span:after { font-size: 12px; content: "拡大"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(12)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(12)>div.label>span:after { font-size: 12px; content: "縮小"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(13)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(13)>div.label>span:after { font-size: 12px; content: "アクティブなリサイズを展開"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(14)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(14)>div.label>span:after { font-size: 12px; content: "アクティブなリサイズを固定"; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(16)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(3)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(16)>div.label>span:after { font-size: 12px; content: "デベロッパーツール"; }
+
+/* リポジトリ項目 */
+#app-menu-bar>div:nth-child(4)>div>button { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>div>button:last-child:after { font-size: 12px; content: "リポジトリ"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span:after { font-size: 12px; content: "プッシュ"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span:after { font-size: 12px; content: "プル"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span:after { font-size: 12px; content: "フェッチ"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span:after { font-size: 12px; content: "削除"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span:after { font-size: 12px; content: "GitHubで見る"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(7)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(7)>div.label>span:after { font-size: 12px; content: "コマンドプロンプトで開く"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(8)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(8)>div.label>span:after { font-size: 12px; content: "エクスプローラーで表示"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(9)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(9)>div.label>span:after { font-size: 12px; content: "Visual Studio Codeで開く"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(11)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(11)>div.label>span:after { font-size: 12px; content: "GitHubに問題を作成する"; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(13)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(4)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(13)>div.label>span:after { font-size: 12px; content: "リポジトリ設定"; }
+
+/* ブランチ項目 */
+#app-menu-bar>div:nth-child(5)>div>button { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>div>button:last-child:after { font-size: 12px; content: "ブランチ"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span:after { font-size: 12px; content: "新しいブランチ"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span:after { font-size: 12px; content: "ブランチ名変更"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span:after { font-size: 12px; content: "削除"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(5)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(5)>div.label>span:after { font-size: 12px; content: "すべての変更を破棄"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(6)>div.label>span:after { font-size: 12px; content: "すべての変更を保存"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(8)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(8)>div.label>span:after { font-size: 12px; content: "main のブランチを更新"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(9)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(9)>div.label>span:after { font-size: 12px; content: "ブランチを比較"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(10)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(10)>div.label>span:after { font-size: 12px; content: "現在のブランチにマージ"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(11)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(11)>div.label>span:after { font-size: 12px; content: "現在のブランチにスクワッシュしてマージ."; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(12)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(12)>div.label>span:after { font-size: 12px; content: "現在のブランチをリベース"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(14)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(14)>div.label>span:after { font-size: 12px; content: "GitHub上で比較する"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(15)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(15)>div.label>span:after { font-size: 12px; content: "GitHubでブランチを見る"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(16)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(16)>div.label>span:after { font-size: 12px; content: "プルリクエストのプレビュー"; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(17)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(5)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(17)>div.label>span:after { font-size: 12px; content: "プルリクエストの作成"; }
+/* ヘルプ項目 */
+#app-menu-bar>div:nth-child(6)>div>button { font-size: 0; }
+#app-menu-bar>div:nth-child(6)>div>button:last-child:after { font-size: 12px; content: "ヘルプ"; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(1)>div.label>span:after { font-size: 12px; content: "問題を報告する"; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(2)>div.label>span:after { font-size: 12px; content: "GitHubサポートへのお問い合わせ"; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(3)>div.label>span:after { font-size: 12px; content: "ユーザーガイドを表示する"; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(4)>div.label>span:after { font-size: 12px; content: "キーボードショートカットを表示する"; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(5)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(5)>div.label>span:after { font-size: 12px; content: "エクスプローラーにログを表示する"; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(7)>div.label>span { font-size: 0; }
+#app-menu-bar>div:nth-child(6)>#foldout-container>div.foldout>#app-menu-foldout>div>div:nth-child(7)>div.label>span:after { font-size: 12px; content: "GitHub Desktopについて"; }
+/* メインウィンドウ */
+#changes-tab>span:nth-child(1) { font-size: 0; }
+#changes-tab>span:nth-child(1):after { font-size: 12px; content: "変更"; }
+#history-tab>span { font-size: 0; }
+#history-tab>span:after { font-size: 12px; content: "履歴"; }
+
+#repository-sidebar>div.panel>div.commit-message-component.with-action-bar>button { font-size: 0; }
+#repository-sidebar>div.panel>div.commit-message-component.with-action-bar>button>strong { font-size: 0; }
+#repository-sidebar>div.panel>div.commit-message-component.with-action-bar>button:after { font-size: 12px; content: "main にコミットする"; }
+
+#diff>div:nth-child(1) { font-size: 0; }
+#diff>div:nth-child(1):after { font-size: 12px; content: "このバイナリファイルは変更されています"; }
+#diff>div:nth-child(2)>a { font-size: 0; }
+#diff>div:nth-child(2)>a:after { font-size: 12px; content: "外部プログラムで開く"; }
+
+/* 差分オプション */
+#diff-options-popover-header { font-size: 0; }
+#diff-options-popover-header:after { font-size: 12px; content: "差分オプション"; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(2)>legend { font-size: 0; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(2)>legend:after { font-size: 12px; content: "空白"; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(2)>div>label { font-size: 0; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(2)>div>label:after { font-size: 12px; content: "空白の変更を非表示にする"; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(2)>p { font-size: 0; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(2)>p:after { font-size: 12px; content: "空白を非表示にしている間は、個々の行またはハンクとのやり取りは無効になります。"; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(3)>legend { font-size: 0; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(3)>legend:after { font-size: 12px; content: "差分表示"; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(3)>div:nth-child(2)>label { font-size: 0; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(3)>div:nth-child(2)>label:after { font-size: 12px; content: "統合"; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(3)>div:nth-child(3)>label>div { font-size: 0; }
+#repository>div.diff-container>div.header>div>div>div.popover-content>fieldset:nth-child(3)>div:nth-child(3)>label>div:after { font-size: 12px; content: "分裂"; }
+
+/* 設定 */
+#__Dialog_preferences_Options { font-size: 0; }
+#__Dialog_preferences_Options:after { font-size: 12px; content: "設定"; }
+
+#preferences-tab-accounts { font-size: 0; }
+#preferences-tab-accounts:after { font-size: 12px; content: "アカウント"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.row-component.account-info>button { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.row-component.account-info>button:after { font-size: 12px; content: "サインアウト"; }
+
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.row-component.call-to-action>div { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.row-component.call-to-action>div:after { font-size: 12px; content: "GitHub Enterprise を使用しているリポジトリにアクセスするにはサインインしてください。"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.row-component.call-to-action>button { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.row-component.call-to-action>button:after { font-size: 12px; content: "GitHub Enterprise にサインイン"; }
+
+#preferences-tab-integrations { font-size: 0; }
+#preferences-tab-integrations:after { font-size: 12px; content: "統合"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>fieldset:nth-child(1)>legend>h2 { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>fieldset:nth-child(1)>legend>h2:after { font-size: 12px; content: "外部エディタ"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>fieldset:nth-child(2)>legend>h2 { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>fieldset:nth-child(2)>legend>h2:after { font-size: 12px; content: "シェル"; }
+
+#default-branch-heading { font-size: 0; }
+#default-branch-heading:after { font-size: 12px; content: "新しいリポジトリのデフォルトのブランチ名"; }
+
+#default-branch-description:after { font-size: 12px; content: "Githubのデフォルトのブランチ名は main です。ワークフローが異なる場合や、統合で従来のデフォルトブランチ名である master が引き継ぎ必要な場合は、ブランチ名を変更する必要があります。"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.default-branch-component>p:nth-child(4) { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.default-branch-component>p:nth-child(4)>a { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div.default-branch-component>p:nth-child(4)>a:after { font-size: 12px; content: "グローバル構成ファイルを編集"; }
+
+#preferences-tab-appearance { font-size: 0; }
+#preferences-tab-appearance:after { font-size: 12px; content: "外観"; }
+#theme-heading { font-size: 0; }
+#theme-heading:after { font-size: 12px; content: "テーマ"; }
+#diff-heading { font-size: 0; }
+#diff-heading:after { font-size: 12px; content: "差分"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>label:after { font-size: 12px; content: "タブサイズ"; }
+
+#preferences-tab-notifications { font-size: 0; }
+#preferences-tab-notifications:after { font-size: 12px; content: "通知"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>h2 { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>h2:after { font-size: 12px; content: "通知"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>div>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>div>label:after { font-size: 12px; content: "通知を有効にする"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div.dialog-content>div.advanced-section>p.git-settings-description { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div.dialog-content>div.advanced-section>p.git-settings-description:after { font-size: 12px; content: "現在のリポジトリで高信号イベントが発生した時に通知を表示できるようにします。通知設定でGithub Desktopの通知が有効になっていることを確認してください。"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>p>a { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>p>a:after { font-size: 12px; content: "通知設定"; }
+
+#preferences-tab-prompts { font-size: 0; }
+#preferences-tab-prompts:after { font-size: 12px; content: "プロンプト"; }
+#show-confirm-dialog-heading { font-size: 0; }
+#show-confirm-dialog-heading:after { font-size: 12px; content: "確認ダイアログの表示設定"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(1)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(1)>label:after { font-size: 12px; content: "リポジトリの削除"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(2)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(2)>label:after { font-size: 12px; content: "変更を破棄"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(3)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(3)>label:after { font-size: 12px; content: "変更を完全に破棄"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(4)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(4)>label:after { font-size: 12px; content: "スタッシュを破棄"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(5)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(5)>label:after { font-size: 12px; content: "コミットのチェックアウト"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(6)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(6)>label:after { font-size: 12px; content: "プッシュ"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(7)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div>div:nth-child(7)>label:after { font-size: 12px; content: "コミットを元に戻す"; }
+#switch-branch-heading { font-size: 0; }
+#switch-branch-heading:after { font-size: 12px; content: "変更があり、ブランチを切り替える場合"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>div:nth-child(1)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>div:nth-child(1)>label:after { font-size: 12px; content: "変更したい場所を確認"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>div:nth-child(2)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>div:nth-child(2)>label:after { font-size: 12px; content: "常に新しいブランチに変更を加える"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>div:nth-child(3)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>div:nth-child(3)>label:after { font-size: 12px; content: "常に変更内容を現在のブランチに残す"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(3)>h2 { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(3)>h2:after { font-size: 12px; content: "コミットの長さ"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(3)>div>label{ font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(3)>div>label:after { font-size: 12px; content: "コミット長の警告を表示する"; }
+
+#preferences-tab-advanced { font-size: 0; }
+#preferences-tab-advanced:after { font-size: 12px; content: "高度な設定"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>h2 { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>h2:after { font-size: 12px; content: "バックグラウンド更新"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div.checkbox-component>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(1)>div.checkbox-component>label:after { font-size: 12px; content: "リポジトリにステータスアイコンを表示する"; }
+#periodic-fetch-description>p:nth-child(1) { font-size: 0; }
+#periodic-fetch-description>p:nth-child(1):after { font-size: 12px; content: "これらのアイコンは、ローあるまたはリモートの変更があるリポジトリを示し、現在選択されてないリポジトリを定期的に取得する必要があります。"; }
+#periodic-fetch-description>p:nth-child(2) { font-size: 0; }
+#periodic-fetch-description>p:nth-child(2):after { font-size: 12px; content: "これをオフにすると、現在選択されているリポジトリの定期的なフェッチは停止されませんが、多数のリポジトリを持つユーザーのアプリの全体のパフォーマンスが向上する可能性があります。"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>h2 { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>h2:after { font-size: 12px; content: "使用法"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>label>span { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>label>span:after { font-size: 12px; content: "使用状況統計を送信して Github Desktop の改善にご協力ください "; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>label>span>a { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(2)>div>label>span>a:after { font-size: 12px; content: "送信"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>h2 { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>h2:after { font-size: 12px; content: "ネットワークと資格情報"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(4)>div>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(4)>div>label:after { font-size: 12px; content: "システムのOpenSSHを使用する"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(5)>div>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div:nth-child(5)>div>label:after { font-size: 12px; content: "Git認証情報マネジャーを使用する"; }
+#use-external-credential-helper-description>p { font-size: 0; }
+#use-external-credential-helper-description>p:after { font-size: 12px; content: "Github外のプライベートリポジトリには Git Credential Manager を使用します。この機能は実験段階であり、変更される場合があります。 "; }
+#use-external-credential-helper-description>p>a { font-size: 0; }
+#use-external-credential-helper-description>p>a:after { font-size: 12px; content: "Git Credential Manager"; }
+
+#preferences-tab-accessibility { font-size: 0; }
+#preferences-tab-accessibility:after { font-size: 12px; content: "アクセシビリティ"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>h2 { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>h2:after { font-size: 12px; content: "アクセシビリティ"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>div:nth-child(2)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>div:nth-child(2)>label:after { font-size: 12px; content: "リンクに下線を引く"; }
+#underline-setting-description { font-size: 0; }
+#underline-setting-description:after { font-size: 12px; content: "有効にすると、Github Desktop はコミットメッセージ、コメント、その他のテキストフィールド内のリンクに下線を付けます。これにより、リンクを区別しやすくなります。"; }
+#underline-setting-description>span { font-size: 0; }
+#underline-setting-description>span:after { font-size: 12px; content: "これはリンクの例です。"; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>div:nth-child(4)>label { font-size: 0; }
+#preferences>form>fieldset>div.preferences-container>div.tab-container>div>div>div:nth-child(4)>label:after { font-size: 12px; content: "差分にチェックマークを表示する"; }
+#diff-checkmarks-setting-description { font-size: 0; }
+#diff-checkmarks-setting-description:after { font-size: 12px; content: "有効にすると、コミット時にdiff内の行番号と行番号のグループの横にチェックマークが表示されます。無効にすると、行番号のコントロールは目立たなくなります。"; }
+
+#preferences>form>fieldset>div.dialog-footer>div>button:nth-child(1) { font-size: 0; }
+#preferences>form>fieldset>div.dialog-footer>div>button:nth-child(1):after { font-size: 12px; content: "保存"; }
+#preferences>form>fieldset>div.dialog-footer>div>button:nth-child(2) { font-size: 0; }
+#preferences>form>fieldset>div.dialog-footer>div>button:nth-child(2):after { font-size: 12px; content: "キャンセル"; }
+/* #region 日本語化追加 v3.5.8 */
+
+/* ツールバー: ブランチ description */
+.branch-button .description { font-size: 0; }
+.branch-button .description::after { font-size: 11px; content: "現在のブランチ"; }
+
+/* empty state: ローカル変更なし */
+.changes-interstitial .interstitial-header .text h1 { font-size: 0; }
+.changes-interstitial .interstitial-header .text h1::after { font-size: var(--font-size-xl); font-weight: var(--font-weight-light); content: "ローカル変更なし"; }
+.changes-interstitial .interstitial-header .text p { font-size: 0; }
+.changes-interstitial .interstitial-header .text p::after { font-size: 12px; content: "このリポジトリにはコミットされていない変更がありません。"; }
+
+
+/* #endregion 日本語化追加 v3.6.1 */
+/* #endregion 日本語化 */
