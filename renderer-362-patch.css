@@ -1,3 +1,5 @@
+/* GitHub Desktop v3.6.2 日本語化パッチ */
+/* renderer-patch.css (v3.6.1 向け) を基に作成 */
 /* #region 日本語化 */
 /* ファイルメニュー項目 */
 #app-menu-bar>div:nth-child(1)>div>button { font-size: 0; }
@@ -286,6 +288,7 @@
 #preferences>form>fieldset>div.dialog-footer>div>button:nth-child(1):after { font-size: 12px; content: "保存"; }
 #preferences>form>fieldset>div.dialog-footer>div>button:nth-child(2) { font-size: 0; }
 #preferences>form>fieldset>div.dialog-footer>div>button:nth-child(2):after { font-size: 12px; content: "キャンセル"; }
+/* #region 日本語化追加 v3.5.8 */
 
 /* ツールバー: ブランチ description */
 .branch-button .description { font-size: 0; }

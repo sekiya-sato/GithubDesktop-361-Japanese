@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "github-desktop-jp-patch": {
+      "source": "/home/user2010/.agents/skills/github-desktop-jp-patch",
+      "sourceType": "local",
+      "computedHash": "b726160010fdad66b45de2b4f215f3389af51c8b4c0585404b956be32aa4af69"
+    }
+  }
+}
